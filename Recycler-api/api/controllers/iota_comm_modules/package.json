@@ -1,0 +1,16 @@
+{
+  "name": "send-id",
+  "version": "1.0.0",
+  "author": "Yehia Tarek",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/converter": "^1.0.0-beta.21",
+    "@iota/core": "^1.0.0-beta.21",
+    "@iota/mam": "^0.7.3",
+    "node-fetch": "^2.6.0",
+    "zeromq": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.2"
+  }
+}

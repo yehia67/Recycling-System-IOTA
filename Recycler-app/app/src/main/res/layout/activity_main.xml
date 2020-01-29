@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:overScrollMode="ifContentScrolls"
+    android:orientation="vertical" >
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/receiving_address"/>
+    <EditText android:id="@+id/address" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:layout_weight="2"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/setAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:onClick="storeAddress"
+            android:text="@string/setAddressButton" />
+        <Button android:id="@+id/changeAdress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:layout_weight="1"/>
+    </LinearLayout>
+    <Button android:id="@+id/scanNfcTagButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/scanNfcTagButton"/>
+    <Button android:id="@+id/myItemsButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/myItemsButton"/>
+    <Button android:id="@+id/historyButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/historyButton"/>
+    <TextView android:id="@+id/defaultReceivingAddress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/default_address"/>
+    <TextView android:id="@+id/textView_explanation" android:layout_width="match_parent" android:layout_height="match_parent" android:text=""/>
+
+
+</LinearLayout>

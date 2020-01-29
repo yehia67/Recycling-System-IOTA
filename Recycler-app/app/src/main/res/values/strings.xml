@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NFC_RECLYING_PRODUCTS</string>
+    <string name="receiving_address">Receiving Address</string>
+    <string name="default_address">Your default address is not available yet please enter it to get your token.</string>
+    <string name="historyButton">History</string>
+    <string name="myItemsButton">My Items</string>
+    <string name="recyclerAppButton">Trash</string>
+    <string name="scanNfcTagButton">Scan Nfc Tag</string>
+    <string name="scanNfcTextView">Scan your Nfc Tag Like This</string>
+    <string name="scanNfcForRewardTextView">Scanning the product Address</string>
+    <string name="search_menu_title">Search</string>
+    <string name="setAddressButton">Set</string>
+    <string name="clientAppButton">Consumer App</string>
+</resources>
